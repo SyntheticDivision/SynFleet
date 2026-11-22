@@ -1,0 +1,22 @@
+SynFleet home-solo Pi version
+Saved 21 Oct 2026, after the Pi screen was confirmed working.
+
+Includes
+- app source
+- pi/install.sh (restarts SynFleet after install) and the systemd service
+- public/idle/01.jpg through 14.jpg
+- Hammer boards: Thor X1, BC01, BC04, DC02
+- Settings, scan subnet, idle alerts, hashrate floor, Wi-Fi, SHA-256 pool apply
+- React error 185 fix
+
+Windows folder: C:\Users\Alex1\Desktop\Youtube video\SynFleet\Version 0.07
+Script: update-pi.bat
+Live copy on the Pi: /home/syntheticdivision/synfleet
+Running service: /opt/synfleet
+Console: http://192.168.0.236:8080
+
+
+This build ignores Whatsminer, Antminer, Braiins, LuxOS, and VNish.
+Add supports Bitaxe / ESP, cgminer, Avalon Nano, Avalon TNA, Hammer, and Harlo.
+No Rec button and no log tape.
+Idle hides the top bar and shows miners on the left and pictures on the right.

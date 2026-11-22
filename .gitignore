@@ -1,0 +1,17 @@
+node_modules/
+.output/
+dist/
+.nitro/
+*.log
+.env
+.env.*
+.DS_Store
+.grok/
+artifacts/
+attachments/
+screenshots/
+.node_modules.tmp*/
+.node_modules.lock
+*.tar
+*.tar.gz
+.vercel
